@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+
+  <title>RegNeRF</title>
+  <style>
+    *{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <br>
+    <div style="text-align: center;">
+      <h1>RegNeRF</h1>
+      <h3> Regularizing Neural Radiance Fields for View Synthesis from Sparse Inputs</h3>
+      <div style="margin-top: 15px;">
+        <span style="margin-right: 15px; font-size: 1.3em;">Michael Niemeyer<sup>1,2,3</sup></span>
+        <span style="margin-right: 15px; font-size: 1.3em;">Jonathan T. Barron<sup>3</sup></span>
+        <span style="margin-right: 15px; font-size: 1.3em;">Ben Mildenhall<sup>3</sup></span>
+      </div>
+      <div>
+        <span style="margin-right: 15px; font-size: 1.3em;">Mehdi S. M. Sajjadi<sup>3</sup></span>
+        <span style="margin-right: 15px; font-size: 1.3em;">Andreas Geiger<sup>1,2</sup></span>
+        <span style="font-size: 1.3em;">Noha Radwan<sup>3</sup></span>
+      </div>
+      <div style="margin-top: 15px;">
+        <span style="margin-right: 20px; font-size: 1.2em;"><sup>1</sup>Max Planck Institute for Intelligent
+          Systems</span>
+        <span style="margin-right: 20px; font-size: 1.2em;"><sup>2</sup>University of Tübingen</span>
+        <span style="font-size: 1.2em;"><sup>3</sup>Google Research</span>
+      </div>
+      <div>
+        <span style="margin-right: 10px; font-size: 1.3em;">CVPR 2022 (oral)</span>
+      </div>
+    </div>
+    <div>
+      <h2 class="text-center" style="margin-top: 25px;">
+        More Results from our Method
+      </h2>
+      <h4>
+        View Synthesis with 3 Input Views
+      </h4>
+      <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-12 gallery center-block text-center">
+          <div class="embed-responsive embed-responsive-4by3">
+            <video controls loop muted autoplay class="embed-responsive-item">
+              <source src="gfx/ours/n3_orchids.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 gallery center-block text-center">
+          <div class="embed-responsive embed-responsive-4by3">
+            <video controls loop muted autoplay class="embed-responsive-item">
+              <source src="gfx/ours/n3_flower.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 gallery center-block text-center">
+          <div class="embed-responsive embed-responsive-4by3">
+            <video controls loop muted autoplay class="embed-responsive-item">
+              <source src="gfx/ours/n3_leaves.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 15px;">
+        <div class="col-md-4 col-sm-4 col-xs-12 gallery center-block text-center">
+          <div class="embed-responsive embed-responsive-4by3">
+            <video controls loop muted autoplay class="embed-responsive-item">
+              <source src="gfx/ours/n3_scan103.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 gallery center-block text-center">
+          <div class="embed-responsive embed-responsive-4by3">
+            <video controls loop muted autoplay class="embed-responsive-item">
+              <source src="gfx/ours/n3_scan114.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 gallery center-block text-center">
+          <div class="embed-responsive embed-responsive-4by3">
+            <video controls loop muted autoplay class="embed-responsive-item">
+              <source src="gfx/ours/n3_scan63.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+      <h4 style="margin-top: 35px;">
+        View Synthesis with 6 Input Views
+      </h4>
+      <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-12 gallery center-block text-center">
+          <div class="embed-responsive embed-responsive-4by3">
+            <video controls loop muted autoplay class="embed-responsive-item">
+              <source src="gfx/ours/n6_fern.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 gallery center-block text-center">
+          <div class="embed-responsive embed-responsive-4by3">
+            <video controls loop muted autoplay class="embed-responsive-item">
+              <source src="gfx/ours/n6_room.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 gallery center-block text-center">
+          <div class="embed-responsive embed-responsive-4by3">
+            <video controls loop muted autoplay class="embed-responsive-item">
+              <source src="gfx/ours/n6_flower.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 15px;">
+        <div class="col-md-4 col-sm-4 col-xs-12 gallery center-block text-center">
+          <div class="embed-responsive embed-responsive-4by3">
+            <video controls loop muted autoplay class="embed-responsive-item">
+              <source src="gfx/ours/n6_scan31.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 gallery center-block text-center">
+          <div class="embed-responsive embed-responsive-4by3">
+            <video controls loop muted autoplay class="embed-responsive-item">
+              <source src="gfx/ours/n6_scan34.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 gallery center-block text-center">
+          <div class="embed-responsive embed-responsive-4by3">
+            <video controls loop muted autoplay class="embed-responsive-item">
+              <source src="gfx/ours/n6_scan41.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+      <h4 style="margin-top: 35px;">
+        View Synthesis with 9 Input Views
+      </h4>
+      <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-12 gallery center-block text-center">
+          <div class="embed-responsive embed-responsive-4by3">
+            <video controls loop muted autoplay class="embed-responsive-item">
+              <source src="gfx/ours/n9_leaves.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 gallery center-block text-center">
+          <div class="embed-responsive embed-responsive-4by3">
+            <video controls loop muted autoplay class="embed-responsive-item">
+              <source src="gfx/ours/n9_orchids.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 gallery center-block text-center">
+          <div class="embed-responsive embed-responsive-4by3">
+            <video controls loop muted autoplay class="embed-responsive-item">
+              <source src="gfx/ours/n9_trex.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 15px;">
+        <div class="col-md-4 col-sm-4 col-xs-12 gallery center-block text-center">
+          <div class="embed-responsive embed-responsive-4by3">
+            <video controls loop muted autoplay class="embed-responsive-item">
+              <source src="gfx/ours/n9_scan110.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 gallery center-block text-center">
+          <div class="embed-responsive embed-responsive-4by3">
+            <video controls loop muted autoplay class="embed-responsive-item">
+              <source src="gfx/ours/n9_scan21.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 gallery center-block text-center">
+          <div class="embed-responsive embed-responsive-4by3">
+            <video controls loop muted autoplay class="embed-responsive-item">
+              <source src="gfx/ours/n9_scan45.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top: 30px; font-size: 1.1em;">
+      <a href="index.html">&larr; Return to main page.</a>
+    </div>
+    <div>
+      <h2 class="text-center" style="margin-top: 30px;">
+        Citation
+      </h2>
+      <p>
+        If you want to cite our work, please use:
+      </p>
+      <pre>
+        @InProceedings{Niemeyer2021Regnerf,
+          author    = {Michael Niemeyer and Jonathan T. Barron and Ben Mildenhall and Mehdi S. M. Sajjadi and Andreas Geiger and Noha Radwan},  
+          title     = {RegNeRF: Regularizing Neural Radiance Fields for View Synthesis from Sparse Inputs},
+          booktitle = {Proc. IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},
+          year      = {2022},
+        }
+      </pre>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
