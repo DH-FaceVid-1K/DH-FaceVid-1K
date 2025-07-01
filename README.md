@@ -1,5 +1,30 @@
 # DH-FaceVid-1K
-Generating talking face videos from various conditions has recently become a highly popular research area within generative tasks. However, building a high-quality face video generation model requires a well-performing pre-trained backbone, a key obstacle that universal models fail to adequately address. Most existing works rely on universal video or image generation models and optimize control mechanisms, but they neglect the evident upper bound in video quality due to the limited capabilities of the backbones, which is a result of the lack of high-quality human face video datasets. In this work, we investigate the unsatisfactory from related studies and collect and annotate a large-scale dataset, resulting in a comprehensive, high-quality digital human facial dataset named DH-FaceVid-1K. Using this dataset, we develop several effective pre-trained backbone models for face video generation, supporting tasks like text-to-video and image-to-video generation. We establish performance benchmarks and compare them with models trained on public related datasets to demonstrate the superiority of our dataset. These experiments enable us to explore empirical strategies for designing domain-specific video generation tasks in a cost-effective manner. We plan to make our curated dataset and pre-trained human face video generation models publicly available as a resource contribution, with the aim of advancing face-centric downstream tasks.
+Human-centric generative models are becoming increas-
+ingly popular, giving rise to various innovative tools and
+applications, such as talking face videos conditioned on text
+or audio prompts. The core of these capabilities lies in pow-
+erful pretrained foundation models, trained on large-scale,
+high-quality datasets. However, many advanced methods
+rely on in-house data subject to various constraints, and
+other current studies fail to generate high-resolution face
+videos, which is mainly attributed to the significant lack of
+large-scale, high-quality face video datasets. In this pa-
+per, we introduce a human face video dataset, DH-FaceVid-
+1K. Our collection spans 1200 hours in total, encompass-
+ing 270,043 video samples from over 20,000 individuals.
+Each sample includes corresponding speech audio, facial
+keypoints, and text annotations. Compared to other pub-
+licly available datasets, ours distinguishes itself through its
+multi-ethnic coverage and high-quality comprehensive in-
+dividual attributes. We establish multiple face video gen-
+eration models supporting tasks such as text-to-video and
+image-to-video generation. In addition, we develop com-
+prehensive benchmarks to validate the scaling law when us-
+ing different proportions of our dataset. Our primary aim is
+to contribute a face video dataset, particularly addressing
+the underrepresentation of Asian faces in existing curated
+datasets and thereby enriching the global spectrum of face-
+centric data and mitigating demographic biases.
 
 
 If you find FaceVid-1K useful for your work please cite:
