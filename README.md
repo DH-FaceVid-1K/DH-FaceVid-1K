@@ -67,42 +67,42 @@ Comprehensive attribute list of DH-FaceVid-1K, including ethnicities, appearance
 
 ### Asian Faces
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(256px, 1fr)); gap: 10px; margin: 20px 0;">
-  <video src="https://raw.githubusercontent.com/DH-FaceVid-1K/DH-FaceVid-1K/main/facevid/asian/000680.mp4" width="256" controls loop muted></video>
-  <video src="https://raw.githubusercontent.com/DH-FaceVid-1K/DH-FaceVid-1K/main/facevid/asian/001406.mp4" width="256" controls loop muted></video>
-  <video src="https://raw.githubusercontent.com/DH-FaceVid-1K/DH-FaceVid-1K/main/facevid/asian/001592.mp4" width="256" controls loop muted></video>
-  <video src="https://raw.githubusercontent.com/DH-FaceVid-1K/DH-FaceVid-1K/main/facevid/asian/001600.mp4" width="256" controls loop muted></video>
+  <video src="https://dh-facevid-1k.github.io/DH-FaceVid-1K/facevid/asian/000680.mp4" width="256" controls loop muted></video>
+  <video src="https://dh-facevid-1k.github.io/DH-FaceVid-1K/facevid/asian/001406.mp4" width="256" controls loop muted></video>
+  <video src="https://dh-facevid-1k.github.io/DH-FaceVid-1K/facevid/asian/001592.mp4" width="256" controls loop muted></video>
+  <video src="https://dh-facevid-1k.github.io/DH-FaceVid-1K/facevid/asian/001600.mp4" width="256" controls loop muted></video>
 </div>
 
 ### Multi-Ethnic Diversity
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(256px, 1fr)); gap: 10px; margin: 20px 0;">
-  <video src="https://raw.githubusercontent.com/DH-FaceVid-1K/DH-FaceVid-1K/main/facevid/race/026237.mp4" width="256" controls loop muted></video>
-  <video src="https://raw.githubusercontent.com/DH-FaceVid-1K/DH-FaceVid-1K/main/facevid/race/046378.mp4" width="256" controls loop muted></video>
-  <video src="https://raw.githubusercontent.com/DH-FaceVid-1K/DH-FaceVid-1K/main/facevid/race/061175.mp4" width="256" controls loop muted></video>
-  <video src="https://raw.githubusercontent.com/DH-FaceVid-1K/DH-FaceVid-1K/main/facevid/race/076105.mp4" width="256" controls loop muted></video>
+  <video src="https://dh-facevid-1k.github.io/DH-FaceVid-1K/facevid/race/026237.mp4" width="256" controls loop muted></video>
+  <video src="https://dh-facevid-1k.github.io/DH-FaceVid-1K/facevid/race/046378.mp4" width="256" controls loop muted></video>
+  <video src="https://dh-facevid-1k.github.io/DH-FaceVid-1K/facevid/race/061175.mp4" width="256" controls loop muted></video>
+  <video src="https://dh-facevid-1k.github.io/DH-FaceVid-1K/facevid/race/076105.mp4" width="256" controls loop muted></video>
 </div>
 
 ### Age Variation
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; margin: 20px 0;">
-  <video src="https://raw.githubusercontent.com/DH-FaceVid-1K/DH-FaceVid-1K/main/facevid/age/001106.mp4" width="200" controls loop muted></video>
-  <video src="https://raw.githubusercontent.com/DH-FaceVid-1K/DH-FaceVid-1K/main/facevid/age/002148.mp4" width="200" controls loop muted></video>
-  <video src="https://raw.githubusercontent.com/DH-FaceVid-1K/DH-FaceVid-1K/main/facevid/age/003762.mp4" width="200" controls loop muted></video>
-  <video src="https://raw.githubusercontent.com/DH-FaceVid-1K/DH-FaceVid-1K/main/facevid/age/019479.mp4" width="200" controls loop muted></video>
+  <video src="https://dh-facevid-1k.github.io/DH-FaceVid-1K/facevid/age/001106.mp4" width="200" controls loop muted></video>
+  <video src="https://dh-facevid-1k.github.io/DH-FaceVid-1K/facevid/age/002148.mp4" width="200" controls loop muted></video>
+  <video src="https://dh-facevid-1k.github.io/DH-FaceVid-1K/facevid/age/003762.mp4" width="200" controls loop muted></video>
+  <video src="https://dh-facevid-1k.github.io/DH-FaceVid-1K/facevid/age/019479.mp4" width="200" controls loop muted></video>
 </div>
 
 ### Head Poses
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; margin: 20px 0;">
-  <video src="https://raw.githubusercontent.com/DH-FaceVid-1K/DH-FaceVid-1K/main/facevid/pose/008001.mp4" width="200" controls loop muted></video>
-  <video src="https://raw.githubusercontent.com/DH-FaceVid-1K/DH-FaceVid-1K/main/facevid/pose/013064.mp4" width="200" controls loop muted></video>
-  <video src="https://raw.githubusercontent.com/DH-FaceVid-1K/DH-FaceVid-1K/main/facevid/pose/027862.mp4" width="200" controls loop muted></video>
-  <video src="https://raw.githubusercontent.com/DH-FaceVid-1K/DH-FaceVid-1K/main/facevid/pose/033011.mp4" width="200" controls loop muted></video>
+  <video src="https://dh-facevid-1k.github.io/DH-FaceVid-1K/facevid/pose/008001.mp4" width="200" controls loop muted></video>
+  <video src="https://dh-facevid-1k.github.io/DH-FaceVid-1K/facevid/pose/013064.mp4" width="200" controls loop muted></video>
+  <video src="https://dh-facevid-1k.github.io/DH-FaceVid-1K/facevid/pose/027862.mp4" width="200" controls loop muted></video>
+  <video src="https://dh-facevid-1k.github.io/DH-FaceVid-1K/facevid/pose/033011.mp4" width="200" controls loop muted></video>
 </div>
 
 ### Emotional Expressions
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; margin: 20px 0;">
-  <video src="https://raw.githubusercontent.com/DH-FaceVid-1K/DH-FaceVid-1K/main/facevid/emotion/14435.mp4" width="200" controls loop muted></video>
-  <video src="https://raw.githubusercontent.com/DH-FaceVid-1K/DH-FaceVid-1K/main/facevid/emotion/15002.mp4" width="200" controls loop muted></video>
-  <video src="https://raw.githubusercontent.com/DH-FaceVid-1K/DH-FaceVid-1K/main/facevid/emotion/Czb5Ml9VDsI_0.mp4" width="200" controls loop muted></video>
-  <video src="https://raw.githubusercontent.com/DH-FaceVid-1K/DH-FaceVid-1K/main/facevid/emotion/GrjEDguF59Q_0.mp4" width="200" controls loop muted></video>
+  <video src="https://dh-facevid-1k.github.io/DH-FaceVid-1K/facevid/emotion/14435.mp4" width="200" controls loop muted></video>
+  <video src="https://dh-facevid-1k.github.io/DH-FaceVid-1K/facevid/emotion/15002.mp4" width="200" controls loop muted></video>
+  <video src="https://dh-facevid-1k.github.io/DH-FaceVid-1K/facevid/emotion/Czb5Ml9VDsI_0.mp4" width="200" controls loop muted></video>
+  <video src="https://dh-facevid-1k.github.io/DH-FaceVid-1K/facevid/emotion/GrjEDguF59Q_0.mp4" width="200" controls loop muted></video>
 </div>
 
 <!-- Human-centric generative models are becoming increas-
