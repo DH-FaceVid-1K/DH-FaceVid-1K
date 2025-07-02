@@ -13,7 +13,7 @@
 
 </div>
 
-![Teaser Image](static\images\1.png)
+
 
 Official repository of **​​DH-FaceVid-1K: A Large-Scale High-Quality Dataset for Face Video Generation**, ICCV 2025
 
