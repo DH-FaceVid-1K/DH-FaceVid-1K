@@ -32,12 +32,12 @@ Overview of DH-FaceVid-1K Dataset. It consists of 270,043 video clips along with
 
 220k samples / 1.2k hrs duration / ~4.01 TB
 
-> **🔥 Please Note**  
-> These video samples are sourced from crowd-sourcing platforms. To prevent data misuse, users must adhere to the relevant licensing agreements to access these video data. Our licensing agreement can be found [here](https://github.com/DH-FaceVid-1K/DH-FaceVid-1K/blob/main/LICENSE).  
-> 
-> To prevent misuse of the DH-FaceVid-1K dataset, we require you to submit information for review and approval before granting download access. Please fill out the form [here](https://forms.gle/vEyouWdS9CgcRFMt9).  
-> 
-> Once approved, we will send you download instructions within 1-2 days. After receiving the download instruction email, you can click the download link in the email and follow the instructions on the page to complete the dataset download process. If you encounter any issues during the download or do not receive the email within a reasonable time, please contact us at [fenghe021209@gmail.com](mailto:fenghe021209@gmail.com).
+**🔥 Please Note**  
+These video samples are sourced from crowd-sourcing platforms. To prevent data misuse, users must adhere to the relevant licensing agreements to access these video data. Our licensing agreement can be found [here](https://github.com/DH-FaceVid-1K/DH-FaceVid-1K/blob/main/LICENSE).  
+ 
+To prevent misuse of the DH-FaceVid-1K dataset, we require you to submit information for review and approval before granting download access. Please fill out the form [here](https://forms.gle/vEyouWdS9CgcRFMt9).  
+ 
+Once approved, we will send you download instructions within 1-2 days. After receiving the download instruction email, you can click the download link in the email and follow the instructions on the page to complete the dataset download process. If you encounter any issues during the download or do not receive the email within a reasonable time, please contact us at [fenghe021209@gmail.com](mailto:fenghe021209@gmail.com).
 
 ## Face Video Datasets Comparison
 
