@@ -4,8 +4,7 @@
 
 # DH-FaceVid-1K: A Large-Scale High-Quality Dataset for Face Video Generation
 
-
-${{\color{Blue}\Huge{\textsf{  ICCV\ 2025\ \}}}}\$
+<span style="color: #0077cc; font-size: 24px; font-weight: bold;">ICCV 2025</span>
 
 
 [![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=b31b1b)](https://arxiv.org/abs/2410.07151)
