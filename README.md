@@ -9,7 +9,7 @@
 
 [![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=b31b1b)](https://arxiv.org/abs/2410.07151)
 [![Project Website](https://img.shields.io/badge/DH--FaceVid--1K-Website-4CAF50?logo=googlechrome&logoColor=white)](https://dh-facevid-1k.github.io/DH-FaceVid-1K/)
-[![Dataset Access](https://img.shields.io/badge/DH--FaceVid--1K-Dataset-0078D7?style=flat&logo=face-recognition&logoColor=white)](https://docs.google.com/forms/d/e/1FAIpQLSd92kS6ZdAGLoN6DvYUVUDCo7R3Oe6GNVPjQn4sDBPJH7_2_A/viewform)
+[![Dataset v1.0](https://img.shields.io/badge/DH_FaceVid_1K-v1.0-8A2BE2?style=flat&logo=apache-spark&logoColor=white)](https://docs.google.com/forms/d/e/1FAIpQLSd92kS6ZdAGLoN6DvYUVUDCo7R3Oe6GNVPjQn4sDBPJH7_2_A/viewform)
 
 </div>
 
