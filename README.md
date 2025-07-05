@@ -30,7 +30,7 @@ Overview of DH-FaceVid-1K Dataset. It consists of 270,043 video clips along with
 
 [![Download](https://img.shields.io/badge/Dataset-Apply_Access-blue)](https://forms.gle/vEyouWdS9CgcRFMt9)
 
-220k samples / 1.2k hrs duration / ~4.01 TB
+270k samples / 1.2k hrs duration / ~4.01 TB
 
 **🔥 Please Note**  
 These video samples are sourced from crowd-sourcing platforms. To prevent data misuse, users must adhere to the relevant licensing agreements to access these video data. Our licensing agreement can be found [here](https://github.com/DH-FaceVid-1K/DH-FaceVid-1K/blob/main/LICENSE).  
